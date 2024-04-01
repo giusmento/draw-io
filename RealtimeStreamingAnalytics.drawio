@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T09:49:09.873Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.1" etag="hJHs-IGTYDOHL6czG4OS" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T10:03:36.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3klGWFEwMT7hnZcTjP2b" version="24.2.1" type="github">
   <diagram name="Page-1" id="vhDD9LuewjdYic584G4Z">
-    <mxGraphModel>
+    <mxGraphModel dx="867" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="393" y="104" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="389" y="360" width="50" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-5" value="Human Facing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="393" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-6" value="Machine Facing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="389" y="74" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-8" value="internal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-9" value="external" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-10" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="260" as="sourcePoint" />
+            <mxPoint x="610" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-11" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="350" as="sourcePoint" />
+            <mxPoint x="420" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-12" value="Observability" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#363636;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-13" value="Real time dashboarding" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#363636;" vertex="1" parent="1">
+          <mxGeometry x="329" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-14" value="Real time applications" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#363636;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-15" value="User Experience" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#363636;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-16" value="API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-17" value="Push applications" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-18" value="Most seen video" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-19" value="Tracking Services" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-20" value="Status Tracking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-21" value="Incremental ingestion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-22" value="Anomaly detection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#363636;" vertex="1" parent="1">
+          <mxGeometry x="333" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qzlGYKkzMBbhx0EJonJk-23" value="Free-query interfaces" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#363636;" vertex="1" parent="1">
+          <mxGeometry x="256" y="330" width="77" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
